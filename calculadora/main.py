@@ -34,7 +34,7 @@ def calculo(num1, num2, operacao):
         return num1 - num2
     elif(operacao == 3):
         return num1 * num2
-    elif(operacao == 4):
+    elif(operacao == 4 and num2 != 0):
         return num1 / num2
     else:
         return operacaoInvalida()
