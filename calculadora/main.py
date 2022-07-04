@@ -34,7 +34,7 @@ def calculo(num1, num2, operacao):
         return num1 - num2
     elif(operacao == 3):
         return num1 * num2
-    elif(operacao == 4):
+    elif(operacao == 4 and num2 != 0):
         return num1 / num2
     else:
         return operacaoInvalida()
@@ -49,8 +49,8 @@ while( operacao != 0):
         operacaoInvalida()
         time.sleep(1.5)
         continue
-    num1 = int(input('Primeiro numero: '))
-    num2 = int(input('Digite o segundo numero: '))
+    num1 = float(input('Primeiro numero: '))
+    num2 = float(input('Digite o segundo numero: '))
     print('Resultado: ' + str(calculo(num1, num2, operacao)))
     time.sleep(1.5)
 
