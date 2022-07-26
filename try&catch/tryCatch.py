@@ -3,7 +3,7 @@ Crie uma situação em que ocorra uma exceção dentro de um código.
 Utilize try/catch para realizar a captura e tratamento dessa exceção. 
 ______________________________________________________________________
 
-**No phython "except" equivale ao "catch"**
+**No python "except" equivale ao "catch"**
 
 '''
 valido = True
