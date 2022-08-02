@@ -30,8 +30,10 @@ switch (operacao){
         resultado = num1 / num2
         var sobra = num1 % num2
             if(sobra != 0){
+                    //Função "Math.trunc" própia do JavaScript irá desconsiderar a dizima da divisão
             alert(`Resultado inteiro da divisao: ${Math.trunc(num1 / num2)}`);
             alert(`Sobra da divisão: ${sobra}`)
+            //resultado com a dizima
             alert(`Resultado real: ${resultado}`)
             }else{
                 alert(`Resultado:  ${resultado}`)
