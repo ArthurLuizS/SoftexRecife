@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(66, 45, 45);
+   
+}
+header{
+    border: 1px solid yellowgreen;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+    margin: 10px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+}
+article{
+    margin: 20px;
+    justify-content: baseline;
+}
+figure{
+    justify-items: center;
+    border: 1px solid yellowgreen;
+    width: 600px;
+}
+img{
+    width: 600px;
+}
+
+
+
+footer{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid green;
+}
