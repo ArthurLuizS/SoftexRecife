@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(66, 45, 45);
+   
+}
+header{
+    border-bottom: 1px solid yellowgreen;
+    border-radius: 15%;
+    width: auto;
+}
+/* h2{
+    
+    border-bottom: 1px solid yellowgreen;
+} */
+
+/* Aplicando flex box */
+  #container-geral{
+    display: block;
+    border: 1px solid yellowgreen;
+    margin: 20px;
+    
+}  
+#apresentacao{
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ponto-turistico{
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 5px 5px 5px;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 1%;
+    width: 55%;
+    border: 1px solid yellowgreen;
+    border-radius: 15%;
+}
+
+/* ------------- */
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    text-indent: 30px;
+    margin: 10px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+}
+article{
+    /* border: 1px solid greenyellow ; */
+    margin: 20px;
+    justify-content: baseline;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+    width: 40%;
+}
+img{
+    border-radius: 10%;
+}
+/* .separador{
+    border-top: 1px solid yellowgreen;
+    width: 90%;
+    margin: 20px;
+  
+} */
+footer{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid green;
+}
