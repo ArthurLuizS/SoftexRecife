@@ -16,8 +16,12 @@ aplicando estilos para a página que você já criou
     <h1>Outros pontos turísticos no Recife Antigo</h1>
  </header>
  <main>
+    <div class="container-geral">
+ 
    <article class="ponto-turistico">
-    <h2>Rua do Bom Jesus</h2>
+    <div class="titulo">
+        <h2>Rua do Bom Jesus</h2>
+    </div>
     <div class="container">
         <div class="descricao">
             <p>A Rua do Bom Jesus, uma das mais famosas do centro do Recife, foi eleita a terceira mais
@@ -35,12 +39,27 @@ aplicando estilos para a página que você já criou
     </div>
    </article>
    <article class="ponto-turistico">
-    <h2>Paço do Frevo</h2>
+    <div class="titulo">
+        <h2>Paço do Frevo</h2>
+    </div>
     <div class="container">
-        <figure>
-            <img src="./img/paco do frevo 1.jpg" alt="">
-            <figcaption>Paço do Frevo - Recife - PE</figcaption>
-        </figure>
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <div class="images">
+            <figure class="slide">
+                <img src="./img/paco do frevo 1.jpg" alt="">
+                <!-- <figcaption>Paço do Frevo - Recife - PE</figcaption> -->
+            </figure>
+            <!-- <figure class="slide">
+                    <img src="./img/paco do frevo 2.webp" alt="">
+                    <figcaption>Paço do Frevo - Recife - PE</figcaption>
+            </figure>  -->
+            <div class="navegacao">
+                <label  for="slide1" class="bar">⬅</label>
+                <label for="slide2" class="bar">➡</label>
+            </div>
+            <p>Paço do Frevo - Recife - PE</p>
+        </div>
         <div class="descricao">
             <p>
                 Instalado no Bairro do Recife, o Paço do Frevo é um Centro de Referência em Salvaguarda do Frevo dedicado
@@ -51,12 +70,11 @@ aplicando estilos para a página que você já criou
             <p>Desde 2014, o Paço desenvolve exposições, atividades, pesquisas e eventos para a divulgação e proteção desse
                 Patrimônio Imaterial da Humanidade, que deve ser reverenciado todos os dias.</p>
             </div>
-            <!-- <figure>
-                <img src="./img/paco do frevo 2.webp" alt="">
-                <figcaption>Paço do Frevo - Recife - PE</figcaption>
-            </figure> -->
+           
     </div>
    </article>
+          
+    </div>
    <footer>
     <p>Pontos turísticos no Recife Antigo</p>
     <p>Página destinada a realização da atividade do curso "Formação acelerada em Programação" da 
