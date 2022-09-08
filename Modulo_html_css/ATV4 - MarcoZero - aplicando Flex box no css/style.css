@@ -57,35 +57,88 @@ header{
     border: 1px solid yellowgreen;
     border-radius: 15%;
 }
-.images{
-    width: 40%;
+.content{
+    width: 520px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;  
+    /* border: 1px solid red; */
+    display: flex;
+
+  
+}
+.slides{
+    display: flex;
+    width: 200%;
     height: 100%;
+}
+.slide{
+    width: 50%;
+    transition: .7s;
+}
+.slide img{
+    width: 510px;
+    height: 400px;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -50%;
+}
+
+
+
+/* .images{
+    width: 40%;
+    height: 250px;
     border: 1px solid red;
     display: flex;
-   flex-direction: column;
-   align-items: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; 
+ 
     
-}
+} */
 .navegacao{
+    border: 3px solid red;
+    width: 200px;
+    height: 30px;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+   background-color: transparent;
+   color: transparent;
+   background: transparent;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+   
 }
 .bar{
     display: flex;
     justify-content: center;
-    width:40px;
-    height: auto;
+    width: 30px;
+    height: 10px;
     margin: 5px;
+    background-color: transparent;
+    
     cursor: pointer;
-    border: 1px solid yellowgreen;
-    border-radius: 10px;
+    border: 2px solid rgb(66, 45, 45);;
+    border-radius: 5px;
     transition: .6s;
     z-index: 2;
 }
 .bar:hover{
     background-color: yellowgreen;
+    opacity: 1;
 }
-figure.slide{
-    width: 100%;
+
+input{
+    display: none;
 }
 /* ------------- */
 h1{
@@ -114,6 +167,7 @@ figure{
     justify-items: center;
     
     width: 40%;
+
 }
 img{
     border-radius: 10%;
