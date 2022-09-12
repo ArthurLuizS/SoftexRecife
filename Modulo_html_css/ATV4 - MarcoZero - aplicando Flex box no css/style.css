@@ -20,10 +20,15 @@ header{
     border-bottom: 1px solid yellowgreen;
     margin-bottom: 20px;
 }
-
+#marco-zero{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
 /* Aplicando flex box */
   .container-geral{
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 1px solid yellowgreen;
     margin: 20px;
     /* overflow: hidden; */
@@ -34,30 +39,37 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .ponto-turistico{
-    
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;  /*  mudar com media querry */
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:580px){
     #marco-zero{
         width: 100%;
     }
     .container-geral{
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     article > .container{
+       
         display: flex;
         flex-direction: column;
+
+        width: 100%;
+
         align-items: center;    
     }
     article > .container > .descricao{
        
-        width: 400px;
+        /* width: 400px; */
+        width: 100%;
         border: none;
         /* display: block;
         flex-direction: column;
@@ -65,7 +77,7 @@ header{
         /* border: none; */
     }
     #parque-esculturas, #centro-artesanato, #rua-bom-jesus{
-        width: 380px;
+        width: 100%;
     }
     /* .ponto-turistico .container{
         display: flex;
@@ -75,42 +87,70 @@ header{
     }  */
   
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) and (min-width:580px){
+    #marco-zero{
+        width: 100%;
+    }
     .container-geral{
         display: flex;
         flex-direction: column;
         overflow: hidden;
     }
-    article{
-        display: flex;
-        flex-direction: column;
+    article > .container > .descricao{
+        width: 500px;
+        border-radius: 10%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    article > .container > .descricao > p{
+        font-size: 1rem;
     }
     article > .container{
         display: flex;
         flex-direction: column;
     }
+    #parque-esculturas, #centro-artesanato, #rua-bom-jesus{
+        width: 480px;
+    }
 
 }
+/* @media screen and (min-width: 900px){
+    #marco-zero{
+        width: 100%;
+    }
+    .container-geral{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+}  */
 
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  
     align-items: center;
     margin: 10px 5px 5px 5px;
+    /**/
+    width: 100%;
+
+    /* overflow: hidden; */
 }
 .descricao{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 1%;
     margin: 1%;
     width: 55%;
+    /* width: 100%; */
     border: 1px solid yellowgreen;
-    border-radius: 15%;
+    border-radius: 10%;
 }
 .content{
     width: 520px;
