@@ -13,6 +13,7 @@ header{
     border-radius: 15%;
     width: auto;
 }
+
 .titulo{
     width: 50%;
     border-bottom: 1px solid yellowgreen;
@@ -42,10 +43,21 @@ header{
     flex-direction: column;
     align-items: center; 
 }
+ /* Responsividade - Mudando o layout da página de acordo com o tamanho da tela */
 @media screen and (max-width:580px){
     #marco-zero{
         width: 100%;
     }
+    .cards{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cards #card1{
+        width: 100%;
+    } 
+    .cards #card2{
+        width: 100%;
+    } 
     .container-geral{
         display: flex;
         flex-direction: column;
@@ -97,6 +109,7 @@ header{
     }
 
 }
+/*Fim da responsividade */
 
 .container{
     display: flex;
@@ -117,6 +130,7 @@ header{
     border: 1px solid yellowgreen;
     border-radius: 10%;
 }
+/*Fazendo o slider da página 2*/
 .content{
     width: 520px;
     height: 400px;
@@ -147,7 +161,7 @@ header{
 #slide2:checked ~ .s1{
     margin-left: -100%;
 }
-
+/* botoes do slide da pagina 2*/
 .navegacao{
     width: 200px;
     height: 30px;
@@ -166,8 +180,7 @@ header{
     width: 30px;
     height: 10px;
     margin: 5px;
-    background-color: yellow;
-    
+    background-color: yellow; 
     cursor: pointer;
     border: 2px solid rgb(66, 45, 45);;
     border-radius: 5px;
@@ -183,7 +196,8 @@ header{
 input{
     display: none;
 }
-/* ------------- */
+/* -------Fim do slide------ */
+/* Estilizando Tags de um modo geral*/
 h1{
     font-size: 3rem;
     text-align: center;
@@ -198,6 +212,9 @@ p{
     margin: 10px;
     text-align: justify;
     letter-spacing: 1.5px;
+}
+a{
+    text-decoration: none;
 }
 a:hover{
     color: black;
@@ -217,11 +234,32 @@ figure{
 img{
     border-radius: 10%;
 }
+/*Linha que divide os artigos*/
 .separador{
     border-top: 1px solid yellowgreen;
     width: 90%;
     margin: 20px; 
 } 
+
+/*estilização da barra de navegação entre as páginas*/
+#nav-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.btn-pag{
+    color: yellow;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-pag:hover{
+    color: yellowgreen;
+    border: none;
+}
+/*--*/
 
 /* Apartir daqui estilização do footer*/
 footer{
@@ -239,7 +277,6 @@ footer{
     width: 45%;
     padding: 10px 20px;
     font-size: 15px;
-   
 }
 .cards h2{
     font-size: 18px;
@@ -249,7 +286,6 @@ footer{
 .cards .description{
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
     text-align: justify;
     align-items: center;
     margin: 20px 0 0 0;
@@ -261,9 +297,6 @@ footer{
     margin: 20px 0 0 0;
 }
 .cards .description .social a{
- 
-    /* box-sizing: border-box;
-    width: 5px; */
     padding: 0 2px;
 }
  .cards .description .social a span{
