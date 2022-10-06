@@ -1,6 +1,6 @@
-**Note: Estrutura base de um projeto React da atividade do curso Programação Acelerada da Softex - Pernambuco**
- Atividade: Desenvolva e rode um programa React
-Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+**Note: Estrutura base de um projeto React da atividade do curso Programação Acelerada da Softex - Pernambuco,Atividade: Desenvolva e rode um programa React. Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
+
+
 
 # Getting Started with Create React App
 
