@@ -1,5 +1,7 @@
 **Note: Estrutura base de um projeto React da atividade do curso Programação Acelerada da Softex - Pernambuco,Atividade1: Desenvolva e rode um programa React. Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
+##
 **A atividade2 foi feita em outro projeto, nomeado de "atv2-softex", link: https://github.com/ArthurLuizS/SoftexRecife/tree/main/Modulo_React/atv2-softex**
+##
 **Atividade 3: No projeto base, criado no Peer Tutoring 1, crie um componente principal e um componente react.O Componente principal é o "App.js" o componente react criado está na pasta "src>Components" com o nome "ComponenteGenericoUm"**
 
 # Getting Started with Create React App
