@@ -1,4 +1,6 @@
-**Note: Estrutura base de um projeto React da atividade do curso Programação Acelerada da Softex - Pernambuco,Atividade1: Desenvolva e rode um programa React. Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
+**Note: Estrutura base de um projeto React da atividade do curso Programação Acelerada da Softex - Pernambuco,Neste projeto será feita algumas ou todas as atividades do modulo "React"**
+##
+**Atividade1: Desenvolva e rode um programa React. Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 ##
 **A atividade2 foi feita em outro projeto, nomeado de "atv2-softex", link: https://github.com/ArthurLuizS/SoftexRecife/tree/main/Modulo_React/atv2-softex**
 ##
