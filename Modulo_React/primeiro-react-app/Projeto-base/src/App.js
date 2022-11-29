@@ -3,7 +3,10 @@ import './App.css';
 import ComponenteGenericoUm from './Components/ComponenteGenericoUm.js' 
 import Saudacao from './Components/Saudacao';
 
+import ContadorDeClicks from './Components/ContadorDeClicks'
+
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
@@ -12,7 +15,12 @@ function App() {
         <p>Iniciando um Programa React</p>
       <ComponenteGenericoUm />
       <Saudacao nome= "Arthur"/>
+      <ContadorDeClicks />
+      
       </header>
+      <body>
+    
+      </body>
     </div>
   );
 }
