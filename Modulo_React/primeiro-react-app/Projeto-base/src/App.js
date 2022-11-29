@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ComponenteGenericoUm from './Components/ComponenteGenericoUm.js' 
+import Saudacao from './Components/Saudacao';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>Hello World,</p>
         <p>Iniciando um Programa React</p>
       <ComponenteGenericoUm />
+      <Saudacao nome= "Arthur"/>
       </header>
     </div>
   );
