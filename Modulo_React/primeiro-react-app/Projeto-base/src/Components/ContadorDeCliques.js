@@ -1,5 +1,5 @@
 import { useState } from 'react'
-function ContadorDeClicks(){
+function ContadorDeCliques(){
     const [count, setCount] = useState(0) ;
     return(
         <div>
@@ -8,4 +8,4 @@ function ContadorDeClicks(){
         </div>
     )
 }
-export default ContadorDeClicks
+export default ContadorDeCliques
