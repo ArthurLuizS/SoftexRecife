@@ -42,3 +42,5 @@ O número 2 ao final da url, indica qual o id do usuário que será deletado
 > GET nos dados finais  **GET | localhost:3000/users**
 
 ![preview](./assets/GetAtualizado.png)
+
+##
