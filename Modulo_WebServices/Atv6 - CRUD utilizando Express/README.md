@@ -13,12 +13,12 @@ Rotas:
 
 > GET | localhost:3000/users
 
-![preview](./.github/Get.png)
+![preview](./assets/Get.png)
 
 ## 
 > POST | localhost:3000/users
 
-![preview](./.github/Post.png)
+![preview](./assets/Post.png)
 
 ##
 
@@ -26,7 +26,7 @@ Rotas:
 
 O número 4 ao final da url, indica qual o id do usuário que será atualizado
 
-![preview](./.github/Put.png)
+![preview](./assets/Put.png)
 
 ##
 
@@ -35,10 +35,10 @@ O número 4 ao final da url, indica qual o id do usuário que será atualizado
 
 O número 2 ao final da url, indica qual o id do usuário que será deletado
 
-![preview](./.github/Delete.png)
+![preview](./assets/Delete.png)
 
 ##
 
 > GET nos dados finais  **GET | localhost:3000/users**
 
-![preview](./.github/Get2.png)
+![preview](./assets/Get2.png)
