@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://app" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://app" xmlns:intf="http://app" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+
+   <wsdl:portType name="calculaServer">
+
+   </wsdl:portType>
+
+   <wsdl:binding name="calculaServerSoapBinding" type="impl:calculaServer">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+   </wsdl:binding>
+
+   <wsdl:service name="calculaServerService">
+
+      <wsdl:port binding="impl:calculaServerSoapBinding" name="calculaServer">
+
+         <wsdlsoap:address location="http://tempuri.org/WebServiceSoftex/services/calculaServer"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
